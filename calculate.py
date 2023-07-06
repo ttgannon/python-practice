@@ -33,26 +33,26 @@ def calculate(operation, a, b, make_int=False, message='The result is'):
             total = int(total)
             return f"{message} {total}"
         else:
-            return total
+            return f"{message} {total}"
     elif operation == 'subtract':
         total = a-b
         if make_int == True:
             total = int(total)
             return f"{message} {total}"
         else:
-            return total
+            return f"{message} {total}"
     elif operation == 'multiply':
         total = a*b
         if make_int == True:
             total = int(total)
             return f"{message} {total}"
         else:
-            return total
+            return f"{message} {total}"
     elif operation == 'divide':
         total = a/b
         if make_int == True:
             total = int(total)
             return f"{message} {total}"
         else:
-            return total
+            return f"{message} {total}"
             
