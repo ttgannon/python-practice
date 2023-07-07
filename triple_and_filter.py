@@ -13,3 +13,8 @@ def triple_and_filter(nums):
         >>> triple_and_filter([1, 2])
         []
     """
+    new_list = []
+    for i in nums:
+        if i % 4 == 0:
+            new_list.append(i*3)
+    return new_list

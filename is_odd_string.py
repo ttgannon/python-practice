@@ -29,3 +29,10 @@ def is_odd_string(word):
     """
 
     # Hint: you may find the ord() function useful here
+    word = list(word)
+    counter = 0
+    for i in word:
+        i = i.upper()
+        i = ord(i) - 64
+        counter += 1
+    return False if counter % 2 == 0 else True
